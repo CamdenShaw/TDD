@@ -18,5 +18,13 @@
   },
   "devDependencies": {},
   "keywords": [],
-  "description": ""
+  "description": "Wrote some tests for a letter counter function",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamdenShaw/TDD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CamdenShaw/TDD/issues"
+  },
+  "homepage": "https://github.com/CamdenShaw/TDD#readme"
 }
