@@ -1,0 +1,22 @@
+{
+  "name": "ttd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^2.8.0",
+    "jest": "^21.2.1",
+    "jest-cli": "^21.2.1",
+    "mocha": "^4.0.1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
