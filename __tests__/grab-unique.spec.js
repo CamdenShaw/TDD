@@ -11,10 +11,11 @@ describe("letter grabber function detector", () => {
             expect(() => grabUnique('')).toThrow()
       })
     })
-    describe("it shouldn't have spaces", () => {
+    describe("it should remove white spaces", () => {
         it("this functions shouldn't have any spaces in the string, it is a single word counter only.", () => {
-            expect(() => grabUnique("kljdf ajklfjllkaj")).toThrow()
-            expect(() => grabUnique("kljdf  ajklfjl lkaj")).toThrow()
+            // expect(grabUnique("aaa aajklfjllkaj")).toEqual('j')
+            expect(grabUnique(`kkaabbb    aabbppppllll
+                    alkaj`)).toEqual('a')
         })
     })
 })
